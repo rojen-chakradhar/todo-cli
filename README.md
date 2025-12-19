@@ -14,14 +14,23 @@ Terminal CLI TODO is a Command Line Interface (CLI) application designed for hig
 
 ---
 
-## 🛠️ Installation & Setup
+## 🚀 Easy 1-Minute Install
 
-### 1. Requirements
-* **Python 3.6+** must be installed on your system.
+1. **Install Python:** Download it from [python.org](https://www.python.org/).
+2. **Download the Script:** Save the `shred.py` code to your computer.
+3. **Run the App:**
+   - Open your Terminal (Mac/Linux) or Command Prompt (Windows).
+   - Type `python shred.py` and hit **Enter**.
 
-### 2. Deployment
-1. Download the `shred.py` file to your local machine.
-2. Open your terminal or command prompt.
-3. Navigate to the folder containing the script:
-   ```bash
-   cd path/to/your/folder
+## ⌨️ How to Use
+
+- **Add a task:** `add Hack the bank @ops --high`
+- **Add a simple task:** `add Buy coffee`
+- **Delete a task:** `shred 1`
+- **Save to file:** `export`
+- **Close app:** `exit`
+
+## 📂 Where is my data?
+- `tasks.json`: Your saved tasks.
+- `system.log`: A history of everything you've done.
+- `REPORT_*.txt`: Your exported list files.
