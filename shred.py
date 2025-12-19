@@ -92,7 +92,7 @@ while True:
             print(get_task_display(t, i+1))
     
     print(f"\n{CYAN}{'='*60}{RESET}")
-    print(f"{BOLD}COMMANDS:{RESET} {GREEN}add [text] --high{RESET} | {RED}shred [id]{RESET} | {YELLOW}export{RESET} | exit")
+    print(f"{BOLD}COMMANDS:{RESET} {GREEN}add [text] @[type] --high{RESET} | {RED}shred [id]{RESET} | {YELLOW}export{RESET} | exit")
     
     try:
         raw_input = input(f"\n{BOLD}root@shredder:~#{RESET} ").strip()
